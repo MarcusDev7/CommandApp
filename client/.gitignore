@@ -1,24 +1,20 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Ignorar arquivos de log
+# *.log
 
-node_modules
-dist
-dist-ssr
-*.local
+# Não ignore o node_modules, dist, etc.
+# node_modules/
+# dist/
+# dist-ssr/
+# .local/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Ignorar configurações de editor
+# .vscode/
+# .idea/
+# .DS_Store
+# *.suo
+# .ntvs*
+# *.jsproj
+# *.sln
+# *.sw?
+
+# Não ignore nada agora, remova todos os comentários acima

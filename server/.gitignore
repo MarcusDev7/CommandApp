@@ -1,9 +1,9 @@
 # Ignorar a pasta node_modules
-node_modules/
+# node_modules/
 
 # Ignorar arquivos de log
-*.log
+# *.log
 
 # Ignorar arquivos de sistema
-.DS_Store
-Thumbs.db
+# .DS_Store
+# Thumbs.db
