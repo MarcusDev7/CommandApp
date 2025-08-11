@@ -1,0 +1,166 @@
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  background-color: rgb(179, 217, 218);
+  padding: 5px;
+  color: #210aa1; 
+  text-align: center;
+}
+
+body {
+  min-height: 100vh; 
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.version {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 200;
+   color: #000000; 
+   font-size: 10px;
+  }
+
+  .rodape{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 200;
+   padding: 2px;
+   background-color: rgb(179, 217, 218);
+   color: #000000; 
+   font-size: 10px;
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+   width: 100%;
+   margin-top: auto;
+  }
+
+  .terminal-titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  position: relative;
+  left: 85px;
+  color: #053155; 
+  margin-top: 70px; 
+  font-weight: bold; 
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-top: 40px; 
+  padding-left: 270px; 
+}
+
+.input-field {
+  width: 250px; 
+  height: 80px; 
+  margin-bottom: 20px; 
+  padding: 10px;
+  font-size: 50px;
+  border: 5px solid #000000; 
+  color: #004c8c;
+  border-radius: 10px; 
+  text-align: center;
+  cursor: pointer;
+}
+
+.input-field::placeholder {
+  color: #888; 
+}
+
+.input-titulo{
+  text-align: center;
+  padding-left: 35px;
+  font-size: 40px;
+  color: #004c8c;
+}
+
+.input-titulo1{
+  text-align: center;
+  padding-left: 65px;
+  font-size: 40px;
+  color: #004c8c;
+  
+}
+
+.input-titulo2{
+  text-align: center;
+  padding-left: 28px;
+  font-size: 40px;
+  color: #004c8c;
+  
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px; 
+  height: 48%;
+  width: 25%; 
+  position: fixed;
+  right: 250px;
+  top: 303px;
+}
+
+.button {
+  font-size: 30px;
+  color: #f0f0f0;
+  background-color: #1274c5;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.buttonB {
+  font-size: 30px;
+  color: #f0f0f0;
+  background-color: brown;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.buttonA {
+  font-size: 30px;
+  color: #f0f0f0;
+  background-color: rgb(31, 0, 167);
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.button:hover {
+  background-color: #28a745; 
+}
+
+.buttonA:hover {
+  background-color: #036cff; 
+}
+
+.buttonB:hover {
+  background-color: #ff0000; 
+}
+
+.confirmar{
+  font-size: 30px;
+  color: #f0f0f0;
+  background-color: rgb(28, 105, 41);
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  height: 15%;
+  width: 25%; 
+  position: fixed;
+  right: 250px;
+  top: 150px;
+}
+
+.confirmar:hover {
+  background-color: #00b93e; 
+}
